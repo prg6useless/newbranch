@@ -1,0 +1,40 @@
+touch -- to make a file
+init -- initialize a git repository
+add -- stage a file/files to commit 
+commit -- commit a file/files in the repository
+log -- check commited logs
+remote add repo name <repo link> -- to add local repository into a global(github) repository
+git push -u reponame branch -- to push files into github repository
+remote add upstream original<repo link>  -- 
+git pull reponame branch  
+git pull upstream branchname(usually main branch)  -- to update the changes made in files on the main repository(github) 
+git branch <branch name> -- to check which branch you are in
+git checkout <branch name> -- to change branch
+git checkout -b <branch name>  -- to create and go to that branch
+git branch -d <branch name> -- to delete branch
+
+
+
+
+
+personal_access_token
+
+euta origin vaneko remote chai hamro aafno repository ko link hamro
+(fork gareko repository jun chai hamro account ma xa aile ko case ma)
+
+git remote add upstream <link>
+
+Yo command ma chai hamile source url (jun repository bata fork gareko tyo url)
+add garxau. tyo upstream ko satta 'source' ya aru ke name rakhna milxa.
+
+since tyo main repo ma arule Pull Requests create garera code merge garirako huna sakxan,
+tyo main repo update vairako hunxa.
+tesaile hamile chai tyo changes lai pull garirakhna parxa:
+
+git pull upstream <branchName> use garera
+
+since latest codes timi sanga hunxa. ani Pull Request create garda changes vaneko chai timro matra files hunxa. 
+So, conflicts aaudaina
+
+
+Feb 5 sat deadline challenge 2
